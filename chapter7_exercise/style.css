@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+#main-visual {
+  font-size: 15px;
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  margin-bottom: 50px;
+  background-image: url("img/mv.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.main {
+  text-align: center;
+}
+
+.school {
+  width: 840px;
+  padding-bottom: 30px;
+  margin: 0 auto 30px;
+  border-bottom: 1px solid #6c6b6b;
+}
+
+.school:last-child {
+  margin-bottom: 50px;
+}
+
+.school p,.school a {
+  font-size: 12px;
+}

@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a {
+  text-decoration: none;
+}
+
+#hedder h1 {
+  font-size: 32px;
+  text-align: center;
+  margin: 20px 0
+}
+
+#global-nav {
+  border-top: 1px solid #6c6b6b;
+  border-bottom: 1px solid #6c6b6b;
+  padding: 15px 0 15px 0;
+}
+
+#global-nav ul {
+  text-align: center;
+}
+
+#global-nav li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px
+}
+
+#global-nav li a {
+  font-size: 12px;
+}
+
+#main {
+  width: 800px;
+  height: 600px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#main div {
+  width: 200px;
+  height: 200px;
+}
+
+#main div:nth-child(1) {
+  background-color: #e6ffe9;
+}
+
+#main div:nth-child(2) {
+  background-color: #cdffd3;
+}
+
+#main div:nth-child(3) {
+  background-color: #aeffbd;
+}
+
+#main div:nth-child(4) {
+  background-color: #93ffab;
+}
+
+#main div:nth-child(5) {
+  background-color: #f3ffd8;
+}
+
+#main div:nth-child(6) {
+  background-color: #edffbe;
+}
+
+
+
+#main div:nth-child(7) {
+  background-color: #e9ffa5;
+}
+
+#main div:nth-child(8) {
+  background-color: #e4ff8d;
+}
+
+#main div:nth-child(9) {
+  background-color: #d9e5ff;
+}
+#main div:nth-child(10) {
+  background-color: #bad3ff;
+}
+
+#main div:nth-child(11) {
+  background-color: #a4c6ff;
+}
+
+#main div:nth-child(12) {
+  background-color: #8eb8ff;
+}
+
+#footer {
+  width: 100%;
+  height: 120px;
+  background-color: #6c6b6b;
+  text-align: center;
+}
+
+#footer p {
+  font-size: 12px;
+  color: #fff;
+  line-height: 120px;
+}

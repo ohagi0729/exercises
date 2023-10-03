@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+li {
+  list-style: none;
+}
+
+#first {
+  margin: 50px 0;
+}
+
+#first li {
+  width: 960px;
+  height: 60px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+#first li:nth-child(odd) {
+  background-color: #d3d3d3;
+}
+
+#second {
+  width: 960px;
+  margin: 0 auto 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#second div {
+  width: 30%;
+  height:200px;
+  margin-bottom: 40px;
+  background-color: #d3d3d3;
+}
+
+#second div:nth-child(1),
+#second div:nth-child(5),
+#second div:nth-child(9){
+  background-color: yellow;
+}
